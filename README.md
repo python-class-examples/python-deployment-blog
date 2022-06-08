@@ -18,9 +18,19 @@ git clone git@github.com:python-class-examples/python-deployment-blog.git
 6. Modify it...
 7. Modify some important aspects of the project, like the `package` and `subpackages` names
 
+If you have a console script (`setup.py` console_scripts config) use `pip install -e .` to test it in 
+your terminal.
+
 After you finish the changes, try to build and upload your project to the PyPi test server. F
 or that you can follow these commands, make sure to create a twine account:
 
 - `pip install twine`
 - `python setup.py sdist`
 - `twine upload -r testpypi dist/*`
+
+Share your package installation link generated in PyPi, so that we can test it.
+
+## Now From Scratch
+
+Now, try to create a new project and publish it by scratch from an empty directory. You can use pycharm and you can
+take a look on the previous example if needed. 
