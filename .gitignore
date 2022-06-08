@@ -1,1 +1,4 @@
 .venv
+dist
+.idea/
+mathias_blog.egg-info/
